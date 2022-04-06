@@ -19,6 +19,7 @@ BitmapImage::~BitmapImage() {
     delete[] buffer;
 }
 
+
 char BitmapImage::getChannels() const {
     return channels;
 }

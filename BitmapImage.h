@@ -11,6 +11,7 @@ public:
 
     bool load(std::string name);
 
+    
 private:
     int width, height;
     int* buffer;
