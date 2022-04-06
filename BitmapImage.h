@@ -21,6 +21,11 @@ public:
 
     char getDepth() const;
 
+    bool resize(int width,int height){
+        this->height=height;
+        this->width=width;
+    }
+
 private:
     char channels;
     char depth;
